@@ -1,6 +1,5 @@
-from flask import Flask, redirect
-from os import environ
-from flask_restplus import Api, fields, Resource
+from flask import Flask
+from flask_restplus import Api
 import vhnews.consultas.controller as controller
 
 app = Flask(__name__)
