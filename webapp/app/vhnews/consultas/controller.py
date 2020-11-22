@@ -35,46 +35,46 @@ class Consulta1(Resource):
         return repository.consulta1() 
 
 @ns2.route('/')
-class Consulta1(Resource):
+class Consulta2(Resource):
     def get(self):
         return repository.consulta2() 
 
 @ns3.route('/')
-class Consulta1(Resource):
+class Consulta3(Resource):
     def get(self):
         return repository.consulta3() 
 
 @ns4.route('/<assinante>')
-class Consulta1(Resource):
+class Consulta4(Resource):
     def get(self,assinante):
         return repository.consulta4(assinante) 
 
 @ns5.route('/<categoria>')
-class Consulta1(Resource):
+class Consulta5(Resource):
     def get(self, categoria):
         return repository.consulta5(categoria) 
 
 @ns6.route('/<usuario>')
-class Consulta1(Resource):
+class Consulta6(Resource):
     def get(self, usuario):
         return repository.consulta6(usuario) 
 
 @ns7.route('/<titulo>')
-class Consulta1(Resource):
+class Consulta7(Resource):
     def get(self, titulo):
         return repository.consulta7(titulo)
 
 @ns8.route('/')
-class Consulta1(Resource):
+class Consulta8(Resource):
     def get(self):
         return repository.consulta8() 
 
 @ns9.route('/')
-class Consulta1(Resource):
+class Consulta9(Resource):
     def get(self):
         return repository.consulta9() 
 
 @ns10.route('/')
-class Consulta1(Resource):
+class Consulta10(Resource):
     def get(self):
         return repository.consulta10()
