@@ -15,7 +15,7 @@ para a documentação completa, acesse a documentação completa
 da extensão flask-restful em:
 https://flask-restful.readthedocs.io/en/latest/
 """
-from flask_restplus import Resource, reqparse, Namespace
+from flask_restplus import Resource, Namespace
 from . import repository
 
 ns1 = Namespace('consulta1', description="Selecionar as notícias mais visualizadas de cada categoria, junto do nome de seu autor" )
