@@ -1,5 +1,5 @@
 """
-Rotas da api de integração nossa x AS.
+Rotas da api.
 
 É utilizado o seguinte formato para a criação de novas rotas.
 
