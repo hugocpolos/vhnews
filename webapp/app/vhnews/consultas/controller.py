@@ -4,7 +4,7 @@ Rotas da api.
 É utilizado o seguinte formato para a criação de novas rotas.
 
 @{namespace}.route(<endpoint>)
-class <endpoint>(Resource):
+class ClassName(Resource):
     def get(self, [args]):
         # método get desse endpoint
     def post(self, [args]):
